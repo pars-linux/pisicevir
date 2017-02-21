@@ -1,0 +1,27 @@
+PISICEVIR NEDIR ?
+----------------
+Pisicevir diğer dağıtımların paketlerini pardus (pisi) paketine çeviren bir yazılımdır.
+
+Pisicevir şuanda sadece debian-deb paketlerini çevirebiliyor.
+
+Dikkat!: Uygulama şuanda deneysel olduğundan dolayı sisteminizde sorun yaratabilir.
+
+KURULUM
+----------------
+Kurmak için:
+Pisiceviri indirdiğiniz dizine girin.
+"sudo python pisicevir_kur.py"
+
+Kaldırmak için:
+"sudo python pisicevir_kur.py --kaldir"
+
+Pisi paketi ile kurulum için:
+Dosyaya çift tıklayarak kurulum veya...
+konsolda paketin bulunduğu dizinde;
+"sudo pisi it pisicevir***.pisi"
+
+KULLANIM
+----------------
+Herhangibir deb paketini çevirmek için:
+"sudo pisicevir paketadi.deb"
+komutunu kullanabilirsiniz.
